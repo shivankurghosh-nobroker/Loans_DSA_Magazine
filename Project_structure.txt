@@ -1,0 +1,8 @@
+hlc-heroes-magazine/
+  ├── public/
+  └── src/
+        ├── components/
+        ├── data/
+        ├── App.js
+        ├── index.js
+        └── styles/
