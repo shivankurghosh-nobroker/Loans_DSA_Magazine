@@ -1,0 +1,94 @@
+/* General container styling */
+.magazine-container {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 900px;
+  background: #fefefe;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0747a6;
+}
+
+.cover-story img.cover-photo,
+.hof-person img.hof-photo {
+  width: 100%;
+  max-width: 180px;
+  border-radius: 8px;
+  margin: 0.5rem auto;
+  display: block;
+}
+
+/* Hall of Fame */
+.hall-of-fame .hof-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hof-person {
+  background: #f8fafc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.badge {
+  font-size: 0.85em;
+  background: #ffe066;
+  color: #5c5c00;
+  padding: 0.2em 0.6em;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+/* Toolbox */
+.toolbox .toolbox-item {
+  margin-bottom: 1.5rem;
+}
+
+.toolbox blockquote {
+  background: #eef4fe;
+  padding: 1rem;
+  border-radius: 6px;
+  font-style: italic;
+  color: #0747a6;
+  white-space: pre-wrap;
+}
+
+/* Payout Board Table */
+.payout-board table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.payout-board th,
+.payout-board td {
+  border: 1px solid #e5e5e5;
+  padding: 0.6em;
+  text-align: left;
+}
+
+/* Events */
+.event-item {
+  margin-bottom: 1.5rem;
+}
+
+.event-date {
+  font-size: 0.85em;
+  color: #777;
+}
+
+/* Leaderboard */
+.leaderboard ol {
+  padding-left: 1.2rem;
+}
